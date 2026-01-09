@@ -1,5 +1,4 @@
-
-import { MenuItem, Modifier, Chef, EventType, DiningOption } from './types';
+import { MenuItem, Modifier, Chef, EventType, DiningOption } from './types.ts';
 
 const ALL_MODES: DiningOption[] = ['eat-in', 'reservation', 'pickup', 'takeaway', 'delivery'];
 
