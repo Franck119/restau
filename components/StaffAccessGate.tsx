@@ -37,7 +37,7 @@ export const StaffAccessGate: React.FC<StaffAccessGateProps> = ({ onAuthenticate
           <p className="text-neutral-400 text-sm md:text-base font-light italic leading-relaxed">
             Esteemed Guest, you have reached a portal reserved exclusively for our Culinary Masters and Service Maîtres.
           </p>
-          <p className="text-neutral-500 text-[10px] md:text-xs uppercase tracking-[0.3em] font-bold">
+          <p className="text-neutral-500 text-[10px] md:text-xs uppercase tracking-[0.3em] font-bold" >
             Access restricted for {viewName}
           </p>
         </div>
