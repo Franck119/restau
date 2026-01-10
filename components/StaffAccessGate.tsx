@@ -10,7 +10,7 @@ interface StaffAccessGateProps {
 
 export const StaffAccessGate: React.FC<StaffAccessGateProps> = ({ onAuthenticated, onBack, viewName }) => {
   const [password, setPassword] = useState('');
-  const STAFF_PASSWORD = "admin";
+  const STAFF_PASSWORD = "admin"; // Consistent with Admin Hub
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -42,7 +42,7 @@ export const StaffAccessGate: React.FC<StaffAccessGateProps> = ({ onAuthenticate
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6" >
           <input 
             type="password" 
             placeholder="Staff Access Code" 
